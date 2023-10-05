@@ -1,7 +1,9 @@
-FROM node:18
+FROM caddy:alpine
+RUN apk update && apk add -no-cache nodejs npm
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 4321
-CMD ["npm", "run", "dev", "--open"]
+RUN npm run build
+RUN cp -r dist/* /srv/
+COPY ./Caddyfile /etc/caddy/Caddyfile
