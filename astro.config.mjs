@@ -15,5 +15,6 @@ export default defineConfig({
     },
     host: true
   },
-  adapter: vercel()
+  adapter: vercel(),
+  outDir: './dist'
 });

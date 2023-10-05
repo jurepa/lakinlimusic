@@ -19,3 +19,23 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+.vercel/output/config.json
+.vercel/output/functions/render.func/.vc-config.json
+.vercel/output/functions/render.func/package.json
+.vercel/output/functions/render.func/src/pages/playlist/\[id\].astro
+.vercel/output/static/_astro/client.bb1cf6b8.js
+.vercel/output/static/_astro/client.ef651e53.js
+.vercel/output/static/_astro/hoisted.bd7fdfe4.js
+.vercel/output/static/_astro/index.9a076671.css
+.vercel/output/static/_astro/index.ed373d49.js
+.vercel/output/static/_astro/Player.e244d92a.js
+.vercel/output/static/favicon.svg
+.vercel/output/static/fonts/CircularSpotifyText-Black.otf
+.vercel/output/static/fonts/CircularSpotifyText-BlackItalic.otf
+.vercel/output/static/fonts/CircularSpotifyText-Bold.otf
+.vercel/output/static/fonts/CircularSpotifyText-Book.otf
+.vercel/output/static/fonts/CircularSpotifyText-BookItalic.otf
+.vercel/output/static/fonts/CircularSpotifyText-Light.otf
+.vercel/output/static/fonts/CircularSpotifyText-Medium.otf
+.vercel/output/static/fonts/CircularSpotifyText-MediumItalic.otf
+.vercel/output/static/music/1/romanticos de lunes.mp3
