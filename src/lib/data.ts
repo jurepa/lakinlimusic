@@ -318,4 +318,13 @@ export const songs: Song[] = [
     "album": "Chill Lo-Fi Music",
     "duration": "4:20"
   },
+  {
+    "id": 1,
+    "albumId": 6,
+    "title": "Silent Rain",
+    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
+    "artists": ["Urban Nocturne"],
+    "album": "Midnight Tales",
+    "duration": "3:40"
+  },
 ]
